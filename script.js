@@ -32,6 +32,10 @@ var recent = document.querySelector('.recover');
 console.log(recent);
 
 
+var selectIcon = document.querySelector('.icon-select');
+console.log(recent);
+
+
 menubutton.addEventListener('click', function () {
     sidebar.classList.toggle('hide-sidebar');
     smallSidebar.classList.toggle('show-small-sidebar');
