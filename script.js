@@ -33,7 +33,13 @@ console.log(recent);
 
 
 var selectIcon = document.querySelector('.icon-select');
-console.log(recent);
+console.log(selectIcon);
+
+var selectDiv = document.querySelector('.select-div');
+console.log(selectDiv);
+
+var displayIcon = document.querySelector('.display-icon');
+console.log(displayIcon);
 
 
 menubutton.addEventListener('click', function () {
@@ -154,6 +160,18 @@ mikeBox.addEventListener('click', function() {
   wrapper.addEventListener('click', function() {
     recent.style.display = 'none';
   });
+
+
+
+  displayIcon.addEventListener('click', function(event) {
+    selectDiv.style.display = 'flex';
+    event.stopPropagation();
+  });
+
+  wrapper.addEventListener('click', function() {
+    selectDiv.style.display = 'none';
+  });
+
 
 
 

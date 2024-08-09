@@ -941,6 +941,7 @@ html,body{
     height: 100%;
     width: 10%;
     /* background-color: #F5004F; */
+    cursor: pointer;
 }
 
 .vedio-channel{
@@ -1021,14 +1022,112 @@ html,body{
 }
 
 .select-div{
-    height: 45vh;
+    height: 48vh;
     width: 18%;
-    background-color: #db5252;
+    background-color: #282828;
     position: absolute;
-    top: 55%;
-    left: 15%;
-    position: sticky;
+    top: 58%;
+    left: 34%;
+    border-radius: 10px;
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-direction: column; 
+    z-index: 1;
+    overflow: hidden;
+    display: none;
 }
+
+.select-content1{
+    height: 14%;
+    width: 100%;
+    /* background-color: #3da6ff; */
+    display: flex;
+    align-items: center;
+
+}
+
+.select-content2{
+    height: 14%;
+    width: 100%;
+    /* background-color: aquamarine; */
+    display: flex;
+    align-items: center;
+
+}
+
+.select-content3{
+    height: 14%;
+    width: 100%;
+    /* background-color: darkorange; */
+    display: flex;
+    align-items: center;
+
+}
+
+.select-content4{
+    height: 14%;
+    width: 100%;
+    /* background-color: darkorchid; */
+    display: flex;
+    align-items: center;
+
+}
+
+.select-content5{
+    height: 2%;
+    width: 100%;
+    /* background-color: deeppink; */
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #f7f1f1;
+    margin-bottom: 1%;
+
+}
+
+.select-content6{
+    height: 14%;
+    width: 100%;
+    /* background-color: gold; */
+    display: flex;
+    align-items: center;
+
+}
+
+.select-content7{
+    height: 14%;
+    width: 100%;
+    /* background-color: khaki; */
+    display: flex;
+    align-items: center;
+
+}
+
+.select-content8{
+    height: 14%;
+    width: 100%;
+    /* background-color: darkgreen; */
+    display: flex;
+    align-items: center;
+
+}
+
+.select-div-content i{
+   font-size: 1.4vw;
+   margin: 0 1vw 0 1vw;
+   color: #ececec;
+}
+
+.select-div-content p{
+    font-size: 1.3vw;
+    font-weight: 500;
+     color: #ececec;
+ }
+
+ .select-div-content:hover{
+    cursor: pointer;
+    background-color: #5c5c5c;
+ }
+
 
 
 
